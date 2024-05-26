@@ -26,7 +26,7 @@ section {
 }
 
 #navbar li {
-  color:#0e0e10;
+  color: #0e0e10;
   border-bottom: 1px solid black;
 }
 
@@ -70,14 +70,15 @@ header {
   body {
     flex-direction: row;
   }
-
+  
   #navbar {
     width: 220px;
     height: 100%;
     position: fixed;
   }
-
+  
   #main-doc {
     margin-left: 250px;
   }
+  
 }
