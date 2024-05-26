@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  <style>
+     @media (max-width: 815px) {
+  body {
+    flex-direction: row;
+  }
+  #navbar {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+  }
+  #main-doc {
+    margin-left: 250px;
+  }
+
+}
+</style>
+<title>Technical-Documentation-Page</title>
+</head>
+<body>
+  <nav id="navbar">
+    <header>PHP Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#PHP_Introduction">PHP Introduction</a></li>
+      <li><a class="nav-link" href="#PHP_Installition">PHP Installition</a></li>
+      <li><a class="nav-link" href="#PHP_Syntax">PHP Syntax</a></li>
+      <li><a class="nav-link" href="#PHP_Comments">PHP Comments</a></li>
+      <li><a class="nav-link" href="#PHP_Variables">PHP Variables</a></li>
+      <li><a class="nav-link" href="#PHP_Strings">PHP Strings</a></li>
+      <li><a class="nav-link" href="#PHP_if_Statements">PHP if Statements</a></li>
+      <li><a class="nav-link" href="#PHP_switch">PHP switch</a></li>
+      <li><a class="nav-link" href="#PHP_Loops">PHP Loops</a></li>
+      <li><a class="nav-link" href="#PHP_Arrays">PHP Arrays</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="PHP_Introduction">
+      <header>PHP Introduction</header>
+      <h3>What You Should Already Know</h3>
+      <p>Before you continue you should have a basic understanding of the following:</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <h3>What is PHP?</h3>
+      <ul>
+        <li>PHP is an acronym for "PHP: Hypertext Preprocessor"</li>
+        <li>PHP is a widely-used, open source scripting language</li>
+        <li>PHP scripts are executed on the server</li>
+        <li>PHP is free to download and use</li>
+      </ul>
+      <h3>What is a PHP File?</h3>
+      <ul>
+        <li>PHP files can contain text, HTML, CSS, JavaScript, and PHP code</li>
+        <li>PHP code is executed on the server, and the result is returned to the browser as plain HTML</li>
+        <li>PHP files have extension "<code class="code">.php</code>"</li> 
+      </ul>
+      <h3>What Can PHP Do?</h3>
+      <ul>
+        <li>PHP can generate dynamic page content</li>
+        <li>PHP can create, open, read, write, delete, and close files on the server</li>
+        <li>PHP can collect form data</li>
+        <li>PHP can send and receive cookies</li>
+        <li>PHP can add, delete, modify data in your database</li>
+        <li>PHP can be used to control user-access</li>
+        <li>PHP can encrypt data</li>
+      </ul>
+      <h3>Why PHP</h3>
+      <ul>
+        <li>PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)</li>
+        <li>PHP is compatible with almost all servers used today (Apache, IIS, etc.)</li>
+        <li>PHP supports a wide range of databases</li>
+        <li>PHP is easy to learn and runs efficiently on the server side</li>
+      </ul>
+      <P>With PHP you are not limited to output HTML.<br> You can output images or PDF files. You can also output any text,
+         such as XHTML and XML.</P>
+    </section>
+    <section class="main-section" id="PHP_Installition">
+      <header>PHP Installition</header>
+      <h3>What Do I Need?</h3>
+      <p>To start using PHP, you can:</p>
+      <ul>
+        <li>Find a web host with PHP and MySQL support</li>
+        <li>Install a web server on your own PC, and then install PHP and MySQL</li>
+       </ul>
+    </section>
+    <section class="main-section"id="PHP_Syntax">
+      <header>PHP Syntax</header>
+      <h3>Basic PHP Syntax</h3>
+      <p>A PHP script can be placed anywhere in the document.</p>
+      <p>A PHP script starts with <code class="code">&lt;?php</code> and ends with 
+        <code class="code">?&gt;</code>:</p>
+    </section>
+    <section class="main-section" id="PHP_Comments">
+      <header>PHP Comments</header>
+      <h3>Comments in PHP</h3>
+      <p>A comment in PHP code is a line that is not executed as a part of the 
+      program. Its only purpose is to be read by someone who is looking at the code.</p>
+      <p>Comments can be used to:</p>
+      <ul>
+        <li>Let others understand your code</li>
+        <li>Remind yourself of what you did - Comments can remind you of what you were thinking when you wrote the code</li>
+        <li>Leave out some parts of your code</li>
+      </ul>
+      <pre>
+        <code class="code">
+        // This is a single-line comment
+        # This is also a single-line comment
+        /* This is a multi-line comment */
+        </code></pre>
+    </section>
+    <section class="main-section" id="PHP_Variables">
+      <header>PHP Variables</header>
+      <h3>Creating (Declaring) PHP Variables</h3>
+      <p>In PHP, a variable starts with the <code class="code">$</code> sign, followed by the name of the variable:</p>
+      <h3>Example</h3><br>
+      <pre><code class="code">$x = 7;<br>$y = "faqiri"
+      </code></pre>
+        <p>In this example, the variable 
+          <code class="code">$x</code> will hold the value 
+          <code class="code">7</code>, and the variable 
+          <code class="code">$y</code> will hold the value 
+          <code class="code">"faqiri"></code></p>
+    </section >
+    </section class="main-section" id="PHP_Data_Types">
+    <section>
+      <header>PHP Data Types</header>
+      <h3>PHP Data Types</h3>
+      <p>Variables can store data of different types, and different data types can do 
+      different things.</p>
+      <ul>
+        <li>String</li>
+        <li>Integer</li>
+        <li>Float</li>
+        <li>Boolean</li>
+        <li>Array</li>
+        <li>Object</li>
+        <li>NULL</li>
+        <li>Resource</li>
+      </ul>
+    </section>
+    <section class="main-section" id="PHP_Strings">
+      <header>PHP Strings</header>
+      <p>A string is a sequence of characters, like "Hello world!".</p>
+      <h3>String</h3>
+      <p>Strings in PHP are surrounded by either double quotation marks, or single quotation marks.</p>
+      <h3>Example</h3>
+      <pre><code><span>echo</span> <span>"php"</span><br><span>echo</span> <span>'php'</span></code></pre>
+    </section>
+    <section class="main-section" id="PHP_if_Statements">
+      <header>PHP if Statements</header>
+      <p>Conditional statements are used to perform different actions based on different conditions.</p>
+      <p>In PHP we have the following conditional statements:</p>
+      <ul>
+        <li><code class="code">if</code> statement - executes some code if one condition is true</li>
+        <li><code class="code">if...else</code> statement - executes some code if a condition is true and another code if that condition is false</li>
+        <li><code class="code">if...elseif...else</code> statement  - executes different codes for more than two conditions</li>
+        <li><code class="code">switch</code> statement - selects one of many blocks of code to be executed</li>
+      </ul>
+    </section>
+    <section class="main-section" id="PHP_switch">
+      <header>PHP switch</header>
+      <p>The <code class="code">switch</code> statement is used to perform different actions based on different conditions.</p>
+      <h3>Example</h3><br>
+      <pre><code class="code">switch (expression) &lbrace; <br>case <i>Label1</i> <br>break;<br>&rbrace;</code></pre>
+      
+    </section>
+    <section class="main-section" id="PHP_Loops">
+      <header>PHP Loops</header>
+      <p>Loops are used to execute the same block of code again and again, as long as a certain condition is true.</p>
+      <ul>
+        <li><code class="code">while</code> - loops through a block of code as long as the specified condition is true</li>
+        <li><code class="code">do...while</code> - loops through a block of code once, and then repeats the loop 
+        as long as the specified condition is true</li>
+        <li><code class="code">for</code> - loops through a block of code a specified number of times</li>
+        <li><code class="code">foreach</code> - loops through a block of code for each element in an 
+        array</li>
+      </ul>
+    </section>
+    <section class="main-section" id="PHP_Arrays">
+      <header>PHP Arrays</header>
+      <p>An array stores multiple values in one single variable:</p>
+      <h3>What is an array</h3>
+      <p>An array is a special variable that can hold many values under a single name, and you can access the values by referring to an index number or name.</p>
+      <h5>PHP Array Types</h5>
+      <ul>
+        <li id="array"><b>Indexed arrays - Arrays with a numeric index</li>
+        <li><b>Associative arrays</b> - Arrays with named keys</li>
+        <li><b>Multidimensional arrays</b> - Arrays containing one or more arrays</li>
+      </ul>
+    </section>
+    <p id="par"><strong>Note:</strong> PHP is a broad topic but in this documentation, I have briefly covered PHP.</p>
+  </main>
+</body>
+</html>
