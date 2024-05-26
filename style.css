@@ -26,7 +26,7 @@ section {
 }
 
 #navbar li {
-  color:#0e0e10;
+  color: #0e0e10;
   border-bottom: 1px solid black;
 }
 
@@ -65,19 +65,20 @@ header {
   color: #514278;
   font-size: 1.2em; 
 }
- 
- @media (max-width: 815px) {
+
+@media (max-width: 815px) {
   body {
     flex-direction: row;
   }
+
   #navbar {
     width: 220px;
     height: 100%;
     position: fixed;
   }
+
   #main-doc {
     margin-left: 250px;
   }
 
 }
-
