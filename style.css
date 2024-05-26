@@ -66,19 +66,18 @@ header {
   font-size: 1.2em;
 }
 
- @media (max-width: 815px) {
+@media (max-width: 815px) {
   body {
     flex-direction: row;
   }
-  
+
   #navbar {
     width: 220px;
     height: 100%;
     position: fixed;
   }
-  
+
   #main-doc {
     margin-left: 250px;
   }
-  
 }
