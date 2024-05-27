@@ -7,9 +7,7 @@ I learned about how to create a responsive web page and how to write a code insi
 
 ## Demo 📸
 
-Include a demo or animated GIF of your project. You can use tools like [asciinema](https://asciinema.org/) to record your terminal sessions.
-
-![Demo](images/capture)
+![Project Demo](./images/Capture.JPG)
 
 ## Technologies Used 🛠️
 
@@ -32,9 +30,9 @@ to access the code of project you can open it visual studio code editor.
 
 ## Author 👩‍💻
 
-Provide your name and a link to your Social Media profiles. You can also include your email address.
+You can contact me through the following:
 
-- LinkedIn: (<https://www.linkedin.com/in/FaridaFaqiri>)
+- LinkedIn: (<https://www.linkedin.com/in/farida-faqiri-071a31309/>)
 - Email: (<farida.faqiri2@gmail.com>)
 
 ## Contributing 🤝
