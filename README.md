@@ -21,7 +21,7 @@ Include a demo or animated GIF of your project. You can use tools like [asciinem
 To access this project, you need to follow the steps below.
 
 ```bash
-git clone paste the copy of ssh key 
+git clone git@github.com:faridafaqiri/Technical-documentation-page.git
 
 ```
 
